@@ -58,7 +58,9 @@ header{
 display: flex;
 padding-top: 32px;
 padding-bottom: 32px;
+border-bottom: 1px solid #ECECEC;
 }
+
 .header-section {
 display: flex;
 }
@@ -234,59 +236,70 @@ margin-right: 0px auto;
 /*command*/
 
 .command{
-background-color:  #F5F4FA;
-padding-top: 94px;
-padding-bottom: 94px;
-}
+    background-color:  #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    }
+    
+    .command-title{
+    margin-bottom:  50px;
+    }
+    
+    .command-list{
+    display: flex;
+    }
+    
+    .command-items{
+    margin-right: 30px;
+    }
+    
+    .command-items:last-child{
+        margin-right: 0px;
+    }
+    
+    .command-title-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+    
+    .command-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: center;
+    margin-top: 10px;
+    }
 
-.command-title{
-padding-top: 94px;
-padding-bottom: 50px;
-}
+    .comand-img{
+    display: block;
+    }
 
-.command-list{
-display: flex;
-}
 
-.command-items{
-margin-right: 30px;
-}
+    .command-box{
+    padding-top:  30px;
+    padding-bottom: 30px;
+    outline: 2px solid#2196F3;
+    }
 
-.command-items:last-child{
-    margin-right: 0px;
-}
 
-.command-title-text {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
-color: #212121;
-text-align: center;
-padding-top:  30px;
-flex-wrap: wrap;
-}
-
-.command-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
-color: #757575;
-text-align: center;
-margin-top: 10px;
-
-}
 
 /*--footer-sektion--*/
 
 .footer{
 background-color: #2F303A;
+padding-top: 111px;
+padding-bottom: 60px;
 }
 
 .footer-list{
-padding-top:20px;
-padding-bottom: 60px;
+margin-top:20px;
 
 }
 
@@ -298,8 +311,6 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 display: block;
-padding-top: 60px;
-
 }
 
 .footer-item-link-nav{
@@ -307,7 +318,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 1.19;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color:#FFFFFF
 
@@ -356,7 +367,7 @@ padding-bottom: 94px;
 
 .portfolio-list-btn{
 display: flex;
-margin-bottom: 34px;
+margin-bottom: 50px;
 justify-content: center;
 }
 
